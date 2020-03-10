@@ -29,16 +29,24 @@ const Banner = () => {
         sx={{ width: "100%" }}
         fluid={data.bg.childImageSharp.fluid}
       >
-        <Styled.h1
+        <div
           sx={{
-            fontSize: 4,
-            color: "white",
-            width: "maxContentWidth",
+            maxWidth: "maxContentWidth",
+            margin: "0 auto",
+            py: 5,
           }}
         >
-          We are a local collaborative that fosters connections and supports
-          activities to promote community wellbeing.
-        </Styled.h1>
+          <Styled.h1
+            sx={{
+              textAlign: "center",
+              fontSize: 5,
+              color: "white",
+            }}
+          >
+            We are a local collaborative that fosters connections and supports
+            activities to promote community wellbeing.
+          </Styled.h1>
+        </div>
       </BackgroundImage>
     </div>
   )

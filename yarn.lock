@@ -13032,6 +13032,11 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+typeface-eb-garamond@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/typeface-eb-garamond/-/typeface-eb-garamond-1.1.4.tgz#e676650ed0f8b258a1d1ce3fdd2fd54853ba8ed8"
+  integrity sha512-nhNBwlOu07wSwmGo9d5+AofWWE4Sll8p9m17bRQeFB3THymuznWPPES1UMLaYq9CWIKU/SWgrfdRCnz1QLYXqg==
+
 unbzip2-stream@^1.0.9:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/unbzip2-stream/-/unbzip2-stream-1.3.3.tgz#d156d205e670d8d8c393e1c02ebd506422873f6a"

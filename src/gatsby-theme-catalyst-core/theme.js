@@ -2,6 +2,7 @@
 // Try changing some of the colors below to see what happens.
 import { tailwind, baseColors } from "@theme-ui/preset-tailwind"
 import prism from "@theme-ui/prism/presets/oceanic-next"
+import "typeface-eb-garamond"
 
 export default {
   initialColorModeName: "light",
@@ -10,6 +11,7 @@ export default {
   breakpoints: ["480px", "768px", "1024px", "1440px"],
   fonts: {
     ...tailwind.fonts,
+    heading: "EB-Garamond, Times New Roman, serif",
     siteTitle: "inherit", // Font for main site title
     navLinks: "inherit", // Font for the nav menu links
     alt: "inherit", //An alternate font style if needed.
@@ -96,6 +98,8 @@ export default {
     blockquote: {
       bg: "muted",
       p: 3,
+      my: 4,
+      mx: [1, 2, 4, null, null],
       borderLeft: "5px solid",
       borderColor: "primary",
     },

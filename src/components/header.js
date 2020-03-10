@@ -9,7 +9,7 @@ const SiteHeader = () => {
     <header
       sx={{
         pt: 3,
-        pb: 5,
+        pb: 3,
         gridArea: "header",
         variant: "variants.header",
       }}
@@ -22,7 +22,7 @@ const SiteHeader = () => {
         }}
       >
         <Img
-          sx={{ width: ["300px", "400px", "500px", null, null] }}
+          sx={{ width: ["275px", "350px", "400px", null, null] }}
           fluid={logo}
           alt={title}
         />

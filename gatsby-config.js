@@ -31,7 +31,7 @@ module.exports = {
         // displaySiteTitleMobile: true,
         // invertLogo: false,
         // useStickyHeader: false,
-        // useSocialLinks: true,
+        useSocialLinks: false,
         // useColorMode: true,
         footerContentLocation: "center", // "left", "right", "center"
       },
