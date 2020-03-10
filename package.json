@@ -6,6 +6,7 @@
   "author": "Eric Howey <eric@erichowey.dev>",
   "dependencies": {
     "gatsby": "^2.19.12",
+    "gatsby-background-image": "^0.10.2",
     "gatsby-theme-catalyst-core": "^0.25.0",
     "gatsby-theme-catalyst-footer": "^0.2.2",
     "react": "^16.12.0",
