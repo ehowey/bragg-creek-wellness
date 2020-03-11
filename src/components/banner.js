@@ -34,12 +34,13 @@ const Banner = () => {
             maxWidth: "maxContentWidth",
             margin: "0 auto",
             py: 5,
+            px: 3,
           }}
         >
           <Styled.h1
             sx={{
               textAlign: "center",
-              fontSize: 5,
+              fontSize: [4, 5, null, null, null],
               color: "white",
             }}
           >
